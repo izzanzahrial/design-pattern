@@ -1,0 +1,9 @@
+State is a behavioral design pattern that lets an object alter its behavior when its internal state changes. 
+It appears as if the object changed its class.
+
+the main class only have to implement the current state, 
+and the actual state will carry the load by doing the actual hardwork.
+
+the different between state and observer
+observer waiting the signal from the outside class
+state get the signal from within itself

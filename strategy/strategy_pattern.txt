@@ -1,0 +1,9 @@
+Strategy is a behavioral design pattern that lets you define a family of algorithms, 
+put each of them into a separate class, and make their objects interchangeable.
+
+Create a superclass that can use one of strategy
+you can create multiple strategy, and it is interchangeable.
+
+the difference between state and strategy
+in state you change the object(state) by using the method.
+in strategy you chose the object(strategy) by selecting which strategy do you wanna use.
