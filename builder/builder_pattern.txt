@@ -2,4 +2,8 @@ Builder is a creational design pattern that lets you construct complex objects s
 The pattern allows you to produce different types and
 representations of an object using the same construction code.
 
-create method for each parameter
+Step :
+1. Create interface for Builder
+2. Create method for each type of Builder
+3. Create a director that you can use to set the type of builder you wanna use,
+    you can change the type of builder by using the director and from the director also you build the product.

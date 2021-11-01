@@ -1,4 +1,4 @@
-package main
+package factory
 
 type m4a1 struct {
 	gun

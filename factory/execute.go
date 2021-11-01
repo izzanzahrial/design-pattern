@@ -1,4 +1,4 @@
-package main
+package factory
 
 import "fmt"
 
@@ -9,7 +9,7 @@ func printDetails(gun iGun) {
 	fmt.Println()
 }
 
-func main() {
+func execute() {
 	ak47, _ := getGun("ak47")
 	m4a1, _ := getGun("m4a1")
 
