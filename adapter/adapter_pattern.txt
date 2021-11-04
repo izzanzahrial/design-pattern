@@ -1,3 +1,15 @@
 Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate.
 
-create adaptee to change the structure from one object into another, like from json to xml
+usecase : when you wanna use the legacy code in something brand new or 
+        when you wanna change the data inside the objects or 
+        when you want to 2 different objects to collaborate with each other. (3rd party app or legacy)
+
+example : transform json into xml or yaml.
+        adapter in pc.
+    
+Step :
+1. Create the first object and it's interface.
+2. The new object have to implement the interface.
+3. If not incompatible create the adapter for the new object.
+4. Create the adapter to turn the 3rd party app or legacy into the useable stuff that you need.
+

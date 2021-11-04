@@ -2,7 +2,7 @@ package abstractfactory
 
 import "fmt"
 
-func execute() {
+func Execute() {
 	adidasFactory, _ := getSportFactory("adidas")
 	nikeFactory, _ := getSportFactory("nike")
 

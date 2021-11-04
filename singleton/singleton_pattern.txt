@@ -1,4 +1,11 @@
 Singleton is a creational design pattern that lets you ensure that a class has only one instance,
 while providing a global access point to this instance.
 
-you can use lock or go once
+usecase : when you wanna create a class that can be used one at a time. like database connection
+
+example : create single instance
+
+step :
+1. You can using lock unlock or sync do Once in golang
+2. Create the lock or the sync
+3. Create the object after lock the function or do Once when creating the object

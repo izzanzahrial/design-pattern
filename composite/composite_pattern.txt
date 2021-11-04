@@ -1,4 +1,10 @@
 Composite is a structural design pattern that lets you compose objects into tree structures 
 and then work with these structures as if they were individual objects.
 
-create tree, from that tree you can create method for recursion.
+usecase : when you want to do something to the subclass without knowing or opening the subclass itself.
+
+example : count paycheck from all employee.
+
+step :
+1. Create common interface for the superclass and the subclass(leaf node)
+2. the interface method have to work recursively, so when you call from the top it will go down

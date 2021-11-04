@@ -1,4 +1,11 @@
 Prototype is a creational design pattern that lets you copy existing objects 
 without making your code dependent on their classes.
 
-using clone method
+usecase : when you wanna copy object without the dependencies
+
+example : create a copy for folder and file structure
+
+step :
+1. Create the interface that implement clone method
+2. Create the algorithm for the clone method which it will create the copy of the object,
+you can add something to it to make it little different from the original object.

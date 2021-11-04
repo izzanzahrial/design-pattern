@@ -1,6 +1,10 @@
 Abstract Factory is a creational design pattern that lets you produce families of related objects 
 without specifying their concrete classes.
 
+usecase : when you wanna create superclass that have the same subclasses but with different type
+
+example : create sports factory with different brand
+
 Step : 
 1. Create interface for the Factories
 2. Create each factory based on the interface

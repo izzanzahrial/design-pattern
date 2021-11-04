@@ -1,0 +1,4 @@
+Visitor is a behavioral design pattern that lets you separate algorithms from the objects on which they operate.
+
+Create a visitor inside it is the algorithms
+the object that will take the visitor/algorithm create accept method

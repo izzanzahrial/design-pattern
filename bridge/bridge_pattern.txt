@@ -1,6 +1,12 @@
 Bridge is a structural design pattern that lets you split a large class or a set of closely related classes 
 into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
 
-split two or more object, find the middle ground. from that middle ground you can create multiple object.
+usecase : when you want to have 2 large class with their own dependency so they can developed independently.
 
-shape and color class = you can create different kind of shape with different kind of color.
+example : API for GUI for different type of platform.
+
+step :
+1. Create 2 interface from the large class
+2. One of them implement the other interface inside it's own method.
+
+

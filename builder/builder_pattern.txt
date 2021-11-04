@@ -2,6 +2,10 @@ Builder is a creational design pattern that lets you construct complex objects s
 The pattern allows you to produce different types and
 representations of an object using the same construction code.
 
+usecase : when you wanna create an object with different types but with the same algorithm.
+
+example : create specific house that have windows, door and floor.
+
 Step :
 1. Create interface for Builder
 2. Create method for each type of Builder

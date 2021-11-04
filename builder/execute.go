@@ -2,7 +2,7 @@ package builder
 
 import "fmt"
 
-func execute() {
+func Execute() {
 	normalBuilder := getBuilder("normal")
 	iglooBuilder := getBuilder("igloo")
 
