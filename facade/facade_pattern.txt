@@ -1,4 +1,11 @@
 Facade is a structural design pattern that provides a simplified interface to a library,
 a framework, or any other complex set of classes.
 
-create Facade class that take care all complex stuff from the back.
+usecase : when you to simplified the front of your program or how to enteract with it
+
+example : e-banking
+
+step :
+1. Create the complex the subsystem that you want to use for facade.
+2. Create the new complex using the facade.
+3. Client use the facade to use the complex subsystem.
